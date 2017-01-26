@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 class Question extends Component {
   upvoteClick(e) {
-    this.props.upvoteHandler(this.props.index);
+    this.props.upvoteHandler(this.props.index)
   }
 
   render () {

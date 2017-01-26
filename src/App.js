@@ -12,7 +12,7 @@ class App extends Component {
     fetch(this.state.baseUrl + '/questions').then((response) =>{
       return response.json()
     }).then((questions)=>{
-      this.setState({questions: questions});
+      this.setState({questions: questions})
     })
   }
 
